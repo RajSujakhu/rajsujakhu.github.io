@@ -1,48 +1,52 @@
-<style>
-  .SUSCRIBE-button{
-    background-color:rgb(200, 0, 0);
-    color:white;
-    border:none;
-    height: 35px;px;
-    width:105px;
-    border-radius:3px;
-    cursor:pointer;
-  }
-  .SUSCRIBE-button:hover{
-    opacity:0.8;
-    
-  }
-  .SUSCRIBE-button:active{
-    opacity: 0.4;
-  }
-  .join-button{
-      background-color:white;
-      border-color:rgb(0, 26, 255);
-      border-style:solid;
-      border-width:1px;
-      color:rgb(4, 43, 240);
-      border-radius:3px;
-      height:20px;
-      width:50px;
-      cursor:pointer;
-      margin-left: 8px;
-    }
-    .tweet-button{
-      background-color:rgb(0, 162, 255);
-      color:white;
-      border-radius:8px;
-      cursor:pointer; 
-      border-width:0px;
-      font-weight:8px;
-      margin-left:8px;
-    }
-</style>
-<button class="SUSCRIBE-button">
-  SUSCRIBE
-</button>
-<button class="join-button">
-  JOIN
-</button>
-<button class="tweet-button">
-  Tweet
-</button>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forced By Teacher</title>
+        <link rel="stylesheet" href="forsite.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    </head>
+    <body>
+        <div class="dai">
+           <nav>
+            <img src="imgss/nilesh.png" width="100px" alt="official logo">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href=""></a></li>
+            </ul>
+            <img src="imgss/sun.png" id="icon">
+           </nav> 
+           <div class="info">
+            <h1>It's <span>Nilesh</span> Karmacharya</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> A voluptatibus laudantium totam, 
+                placeat tempore molestiae officiis illum incidunt<br> non corrupti expedita sint modi saepe 
+                culpa voluptatem, est ex velit aliquam.</p>
+            <a href="">View my Class Assignment Here</a>
+            <a href="https://www.instagram.com/ishouldbestudyn/?igshid=MzNlNGNkZWQ4Mg%3D%3D">View my Ai Images Here</a>
+        </div>
+        <div class="img-area">
+            <img src="imgss/nileshshadow.png" class="back-img">
+            <img src="imgss/nilesh.png" class="main-img">
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/ishouldbestudyn/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/raz.sujakhu.5"><i class="fab fa-facebook"></i></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        </div>
+        <script>
+            var icon=document.getElementById("icon");
+            icon.onclick=function(){
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                icon.src="imgss/moon.png";
+                }else{
+                    icon.src="imgss/sun.png";
+                }
+            }
+        </script>
+        <p>Raj sujakhu</p>
+    </body>
+</html>
