@@ -45,7 +45,7 @@
   }
   .listing{
       margin-left: 30;
-      color: var(--secondary-color);
+      color: blue;
       line-height: 30px;
   }
   .listing a{
