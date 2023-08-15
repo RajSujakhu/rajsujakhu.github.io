@@ -20,7 +20,7 @@
 }
 .listing{
     margin-left: 30;
-    color: var(--secondary-color);
+    color: blue;
     line-height: 30px;
 }
 .listing a{@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display&swap");
